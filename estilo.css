@@ -188,5 +188,5 @@ h2 {
 }
 
 .wrap .sapatos img:hover{
-	transform: matrix3d(-1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
+	transform:matrix3d(-1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
 }
