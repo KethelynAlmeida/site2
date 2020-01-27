@@ -110,7 +110,7 @@ h2 {
 }
 
 .listaCategoria li {
-	margin: 114px;
+	margin: 73px 114px;
 }
 
 .wrapper{
@@ -185,4 +185,8 @@ h2 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around; 	
+}
+
+.wrap .sapatos img:hover{
+	transform: matrix3d(-1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1);
 }
