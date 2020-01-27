@@ -6,7 +6,7 @@
 	<title>Site de calçados - KeMath</title>
 	<link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
 	<link rel="stylesheet" href="estilo.css">
-	<script src="funcionalidades.js"></script>
+	
 </head>
 
 <body>
@@ -30,11 +30,13 @@
 	</div>
 
 	<div class="wrap">
+		<!--Slide-->
 		<div class="galeria">
 			<img class="foto" src="img/masculino.jpg">
 			<img class="foto" src="img/feminino.jpg">
 			<img class="foto" src="img/infantil.jpg">
 		</div>
+		<!--Final Slides-->
 
 		<div class="marcas">
 			<div id="marca1" class="espaco">
@@ -67,7 +69,11 @@
 			</div>
 		</div>	
 	</div>
+	
+	<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
+</section>
 	<div class="rodape">
 		<div class="textoRodape">
 			<ol class="textoRodape listaCategoria">
@@ -76,6 +82,6 @@
 			</ol>	
 		</div>
 	</div>
-
+	<script src="funcionalidades.js"></script>
 </body>
 </html>
